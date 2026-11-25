@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b1b">
+  <meta name="description" content="Со дна — погружайся в глубину, всплывай в легенды! Сайт команды Волга.ТОП 2026.">
+  <title>Со дна — погружайся в глубину</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#home"><span class="logo-symbol">✧</span><span>СО ДНА<span class="logo-point">.</span></span></a>
+  <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  <nav class="nav" aria-label="Основная навигация">
+    <a href="#home">Главная</a><a href="#about">О команде</a><a href="#crew">Участники</a><a href="#skills">Навыки</a><a href="#projects">Проекты</a><a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-image"></div><div class="hero-vignette"></div>
+  <div class="hero-content">
+    <div class="overline"><span class="star">✦</span> ВОЛГА.ТОП 2026 <span class="overline-line"></span> КОМАНДА</div>
+    <h1>СО ДНА<span>.</span></h1>
+    <p class="motto">Погружайся в глубину —<br><em>всплывай в легенды!</em></p>
+    <a class="hero-cta" href="#about">Узнать о нас больше <span>↘</span></a>
+  </div>
+  <div class="hero-coordinates"><span>DEPTH 00° 00′</span><span>BEYOND THE SURFACE</span><span>EST. 2026</span></div>
+  <div class="hero-scroll"><span></span> ПОГРУЗИТЬСЯ НИЖЕ</div>
+</section>
+
+<section class="about section-wrap" id="about">
+  <div class="section-index">01 / О КОМАНДЕ</div>
+  <div class="about-grid">
+    <div><p class="micro-label">НИЖЕ ПОВЕРХНОСТИ</p><h2>Мы команда, которая<br><span>не сдается.</span></h2></div>
+    <div class="about-copy">
+      <p class="lead">Мы — команда «Со дна». Нас объединяют любопытство, смелость пробовать новое и желание создавать цифровые решения вместе.</p>
+      <p>В «Волга.ТОП» мы участвуем, чтобы проверить идеи на практике, научиться работать как единый экипаж и показать, что даже из самой глубины можно поднять нечто особенное.</p>
+      <div class="about-signature">НАША ГЛУБИНА — НАША СИЛА <span>✧</span></div>
+    </div>
+  </div>
+  <div class="about-image-strip"><img src="assets/cosmic-ocean.jpg" alt="Абстрактные синие светящиеся сферы и водные потоки"><div><span>THE DEEP IS FULL OF LIGHT</span><strong>У каждой идеи<br>есть своя глубина.</strong></div></div>
+</section>
+
+<section class="crew section-wrap" id="crew">
+  <div class="section-index">02 / ЭКИПАЖ</div>
+  <div class="section-title-row"><div><h2>Наш <span>экипаж</span></h2></div><p>Каждый участник — важная часть<br>одного большого погружения.</p></div>
+  <div class="crew-grid" id="crew-grid"></div>
+  <p class="section-footnote">Фотографии и сведения об участниках добавляются в файле <code>data.js</code>. Публикуйте фото и контакты только с согласия участников.</p>
+</section>
+
+<section class="skills section-wrap" id="skills">
+  <div class="section-index">03 / СНАРЯЖЕНИЕ</div>
+  <div class="section-title-row"><div><p class="micro-label">ЧТО БЕРЁМ С СОБОЙ</p><h2>Наши <span>навыки</span></h2></div><p>Технологии, инструменты и навыки,<br>которые помогают нам двигаться глубже.</p></div>
+  <div class="skills-panel">
+    <div class="skills-art"><img src="assets/deep-blue-world.jpg" alt="Синяя фантазийная глубина с лучами света"><span class="art-caption">SIGNALS FROM THE DEEP</span></div>
+    <div class="skills-list" id="skills-list"></div>
+  </div>
+</section>
+
+<section class="projects section-wrap" id="projects">
+  <div class="section-index">04 / НАХОДКИ</div>
+  <div class="section-title-row"><div><h2>Наши <span>проекты</span></h2></div>
+  <div class="projects-grid" id="projects-grid"></div>
+</section>
+
+<section class="contacts section-wrap" id="contacts">
+  <div class="contacts-backdrop"></div>
+  <div class="section-index">05 / СВЯЗЬ С ПОВЕРХНОСТЬЮ</div>
+  <h2>Давай создадим<br><span>что-то легендарное.</span></h2>
+  <p class="contacts-copy">Открыты к знакомствам, обмену опытом и совместным проектам.</p>
+  <div class="contact-links" id="contact-links"></div>
+  <div class="contacts-bottom"><span>СО ДНА © 2026</span><span>ПОГРУЖАЙСЯ В ГЛУБИНУ — ВСПЛЫВАЙ В ЛЕГЕНДЫ!</span></div>
+</section>
+</main>
+<footer><a class="logo" href="#home"><span class="logo-symbol">✧</span><span>СО ДНА<span class="logo-point">.</span></span></a><span>Сайт команды «Со дна»</span><a href="#home">НАВЕРХ ↑</a></footer>
+<script src="data.js"></script><script src="script.js"></script>
+</body></html>
