@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#0a4a8a"/>
+      <stop offset="30%" stop-color="#062d5c"/>
+      <stop offset="70%" stop-color="#03152e"/>
+      <stop offset="100%" stop-color="#020a1a"/>
+    </radialGradient>
+    <radialGradient id="sphere1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5ee6ff" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#1a9ee8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a4a8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sphere2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#80f0ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#2090e0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#052" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lightRay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fdfff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7fdfff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g1)"/>
+  <ellipse cx="600" cy="400" rx="180" ry="180" fill="url(#sphere1)"/>
+  <ellipse cx="1200" cy="300" rx="220" ry="220" fill="url(#sphere2)"/>
+  <ellipse cx="950" cy="650" rx="140" ry="140" fill="url(#sphere1)" opacity="0.7"/>
+  <ellipse cx="1500" cy="700" rx="100" ry="100" fill="url(#sphere2)" opacity="0.5"/>
+  <ellipse cx="300" cy="750" rx="120" ry="120" fill="url(#sphere1)" opacity="0.4"/>
+  <polygon points="800,0 900,0 600,1080 500,1080" fill="url(#lightRay)"/>
+  <polygon points="1100,0 1200,0 900,1080 800,1080" fill="url(#lightRay)" opacity="0.6"/>
+  <polygon points="1400,0 1500,0 1300,1080 1200,1080" fill="url(#lightRay)" opacity="0.4"/>
+</svg>
